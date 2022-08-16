@@ -66,6 +66,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
+  margin-top: 60px;
 }
 
 .form {
@@ -169,7 +170,7 @@
   color: blue;
 }
 
-/* created elements */
+/* created elements wiith JAVASCRIPT*/
 .div1 {
   display: flex;
   justify-content: space-between;
@@ -184,6 +185,12 @@
   width: 90px;
   border: 1.5px solid black;
   box-shadow: 3px 3px 8px 0.5px;
+}
+
+.delete:hover {
+  background-color: bisque;
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .div1:nth-child(odd) {
