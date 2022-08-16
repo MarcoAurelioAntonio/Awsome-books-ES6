@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  padding: 15px;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: flex-end;
+}
+
+.pole {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav {
+  padding: 0 5px;
+}
+
+.time {
+  width: 70vw;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+/* LIst of books */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.main-title {
+  margin-bottom: 20px;
+}
+
+.book-list {
+  width: 50vw;
+  height: auto;
+  padding: 10px;
+  border: 2px solid black;
+  margin-bottom: 60px;
+  box-shadow: 1px 10px 15px 1px grey;
+}
+
+/* Add new books */
+.form-title {
+  text-align: center;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 43vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-end;
+  row-gap: 15px;
+}
+
+/* inputs */
+.in {
+  width: 40vw;
+  padding: 5px;
+}
+
+.in:active {
+  box-shadow: 3px 3px 10px 2px grey;
+  background-color: bisque;
+}
+
+.addBtn {
+  font-weight: 600;
+  padding: 5px;
+  width: 60px;
+  border: 1.5px solid black;
+  box-shadow: 3px 3px 8px 0.5px;
+}
+
+.addBtn:hover {
+  background-color: bisque;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/* Info section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 50vw;
+  align-items: center;
+}
+
+.contact-title {
+  width: 40vw;
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact-text1,
+.contact-text2 {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.contact-text2 {
+  margin-bottom: 15px;
+  margin-left: -181px;
+}
+
+.contact-ul {
+  text-align: start;
+}
+
+.contact-list {
+  margin-left: 60px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.copyright {
+  padding: 15px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+#add-new.active,
+#contact.active,
+#list.active {
+  cursor: pointer;
+  color: blue;
+}
+
+/* created elements */
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 5px 10px;
+}
+
+.delete {
+  font-weight: 600;
+  padding: 5px;
+  width: 90px;
+  border: 1.5px solid black;
+  box-shadow: 3px 3px 8px 0.5px;
+}
+
+.div1:nth-child(odd) {
+  background-color: #d3d3d3;
+}

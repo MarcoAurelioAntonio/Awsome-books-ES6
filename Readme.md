@@ -30,7 +30,7 @@ Setup your project:
     - Use let and const in a correct way.
     - Display the current date below the navigation bar.
 
-- For this requirement you should use a library Luxon
+- For this requirement you should use a library [Luxon](https://moment.github.io/luxon/#/install?id=es6)
     - Download the script and save it to your project.
     - Import it as a module.
     - See the article Get the current date and time. Your task here is to use a new tool effectively with little externally curated support. Exactly as you will do in your future job.
