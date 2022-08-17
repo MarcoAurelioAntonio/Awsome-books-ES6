@@ -1,5 +1,6 @@
 /* import Book from './modules/constructor.js'; */
 import Method from './modules/methods.js';
+import Time from './modules/date.js';
 
 /* Objects in const */
 // Nav bar:
@@ -109,3 +110,11 @@ deleteBtn.addEventListener('click', (event) => {
     localStorage.setItem('data', JSON.stringify(erasedBook));
   }
 });
+
+// Sets the datetime in website
+const date = document.getElementById('time');
+date.innerHTML = Time.getDate();
+const setTime = () => {
+  date.innerHTML = Time.getDate();
+};
+setInterval(setTime, 1000);
