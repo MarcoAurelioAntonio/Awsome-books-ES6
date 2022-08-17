@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-
-
-
-
-
-
-    <script src="index.js"></script>
-</body>
+    <link rel="stylesheet" href="index.css" />
+		<script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <nav class="navbar-container">
+      <h3 class="navbar-title">Awesome Books</h3>
+      <div class="navbar-links">
+        <div class="list nav active" id="list">List</div>
+        <p class="pole nav">|</p>
+        <div class="add-new nav active" id="add-new">Add new</div>
+        <p class="pole nav">|</p>
+        <div class="contact nav active" id="contact">Contact</div>
+      </div>
+    </nav>
+		<p id="time"></p>
+		<div class="main-container hide">
+			<h1 class="main-title">Awesome Books📚</h1>
+			<div class="book-list" id="book-list"></div>
+		</div>
+		<div class="add-section">
+			<h3 class="form-title">Add a new book</h3>
+			<form class="form" action="null" method="post">
+				<input class="title in" type="text" placeholder="Title" /> 
+				<input class="author in" type="text" placeholder="Author" />
+				<input type="button" class="addBtn" value="Add" />
+			</form>
+		</div>
+    <div class="contact-info hide">
+      <h3 class="contact-title">Contact Information</h3>
+      <p class="contact-text1">
+        Do you have any questions or just want to say "Hello"?
+      </p>
+      <p class="contact-text2">You can reach out to us!</p>
+      <ul class="contact-ul">
+        <li class="contact-list">Our e-mail: mail@mail.com</li>
+        <li class="contact-list">Our phone number: 0043586534422</li>
+        <li class="contact-list">
+          Our address: Streetname 22, 84503 City, Country
+        </li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <p class="copyright">&copy;Copyright ...</p>
+    </footer>		
+  </body>
 </html>
